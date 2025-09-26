@@ -11,9 +11,9 @@ class HomePage extends StatelessWidget {
         centerTitle: true,
         title: Text(""
             "Verificador",
-            style: TextStyle(color: Colors.white, fontSize: 30)
+            style: TextStyle(color: Colors.black, fontSize: 30)
         ),
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.white,
       ),
       backgroundColor: Colors.black,
       body: Center(
@@ -26,7 +26,7 @@ class HomePage extends StatelessWidget {
               minimumSize: const Size(120, 60),
             ),
             onPressed: () {
-              //Modular.to.pushNamed("/CPF/");
+              Modular.to.pushNamed('/cpf');
             },
             child: Text(
               "CPF",
@@ -43,7 +43,7 @@ class HomePage extends StatelessWidget {
                 minimumSize: const Size(120, 60),
               ),
               onPressed: () {
-                //Modular.to.pushNamed("/CNPJ/");
+                Modular.to.pushNamed("/cnpj/");
               },
               child: Text(
                 "CNPJ",

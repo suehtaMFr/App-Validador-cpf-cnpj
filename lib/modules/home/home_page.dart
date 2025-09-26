@@ -43,7 +43,7 @@ class HomePage extends StatelessWidget {
                 minimumSize: const Size(120, 60),
               ),
               onPressed: () {
-                //Modular.to.pushNamed("/CNPJ/");
+                Modular.to.pushNamed("/cnpj/");
               },
               child: Text(
                 "CNPJ",
@@ -52,8 +52,9 @@ class HomePage extends StatelessWidget {
                   fontSize: 24,
                 ),
               )
-          ),
-        ],),
+            ),
+          ],
+        ),
       ),
     );
   }

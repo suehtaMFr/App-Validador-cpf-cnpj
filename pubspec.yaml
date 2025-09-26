@@ -14,13 +14,14 @@ dependencies:
 
   cupertino_icons: ^1.0.8
   flutter_modular: ^6.4.1
+  brasil_fields: ^1.18.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   # rules and activating additional ones.
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
 
 flutter:
 

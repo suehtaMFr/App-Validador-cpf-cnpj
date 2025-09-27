@@ -52,8 +52,9 @@ class HomePage extends StatelessWidget {
                   fontSize: 24,
                 ),
               )
-          ),
-        ],),
+            ),
+          ],
+        ),
       ),
     );
   }
